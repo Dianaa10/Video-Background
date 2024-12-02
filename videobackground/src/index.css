@@ -1,0 +1,19 @@
+
+.bgContainer {
+  position: fixed; /* Fixes the container to the viewport */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: hidden; /* Prevents scrolling due to excess content */
+  z-index: -1; /* Ensures it stays behind other content */
+}
+
+video {
+  width: 100%; /* Stretch video to cover width */
+  height: 100%; /* Stretch video to cover height */
+  object-fit: cover; /* Ensures the video covers the container */
+  position: absolute; /* Makes stacking possible */
+  top: 0;
+  left: 0;
+}
