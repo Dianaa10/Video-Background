@@ -1,7 +1,7 @@
 # Video-Background
 Create a video background with a React App- 2024
 
-Adding a Video Background to a React App
+
 This guide demonstrates how to add a video background to a React app. We'll walk through the process of setting up a background video component that can be used across your app.
 
 Prerequisites
